@@ -2,6 +2,8 @@
 
 XYSLEW is a small helper project for TouchOSC that gives you the ability to set a *slew* and *pull* parameter for a TouchOSC XY object.
 
+<video src="https://github.com/neilbaldwin/XYSlew/blob/main/img/xyslew.mp4" width="320" height="240" controls></video>
+
 *Slew* is used to slew the output from the XY object as you move the pointer around or if you touch/click and hold at a coordinate.
 
 *Pull* is the TouchOSC parameter that sets the strength at which the control drifts back to it's zero/origin point.
