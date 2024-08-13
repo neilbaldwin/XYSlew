@@ -22,10 +22,12 @@ That's probably not the clearest description of what's going on but the code is 
 
 I've included the code separately but look at the example .TOSC file to see how to implement it. Apart from the main code, the two sliders also have a `onValueChanged()` function that uses the `:notify()` method on the XY object to send/set the Slew and Pull parameters.
 
-Look at the top of the file `xyslew.lua` as there are a couple of constants to set the range/scale of both the slew and the pull.
-
 ### Usage
 
 In your actual project you'll want to place the *ghost* XY on top of the real one and make the *ghost* one invisible. In the example I've separated them out so you can see what's going on.
+
+Look at the top of the file `xyslew.lua` as there are a couple of constants to set the range/scale of both the slew and the pull.
+
+Also at the top of the `xyslew.lua` file is the path to the *target* XY object - you'll need to set that path properly in your project.
 
 Feel free to use and/or modify as you like.
